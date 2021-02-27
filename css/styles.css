@@ -16,6 +16,7 @@ Secondary Color (Orange): #e0b354;
 a {
   color: var(--primary-color);
 }
+
 body {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
