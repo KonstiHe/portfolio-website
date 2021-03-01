@@ -108,6 +108,9 @@ button:hover, button:focus,
   flex-direction: column;
   text-align: center;
 }
+.contact-list {
+  display:inherit;  
+}
 * {
   box-sizing: border-box;
 }
