@@ -26,6 +26,8 @@ body {
   line-height: 1.6;
 
   /* Sets the line-height to 1.6 */
+  margin-left: 45px;
+  margin-right: 45px;
 }
 
 h1 {
@@ -83,7 +85,8 @@ button,
 
   /* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
-  transition-duration: 0.2s opacity;
+  transition-duration: 0.2s;
+  transition-property: opacity;
 }
 
 button:hover,
@@ -106,7 +109,8 @@ button:focus,
   font-family: inherit;
 }
 
-.profile {
+.profile,
+.container {
   max-width: 700px;
   margin: 0 auto;
 }
@@ -138,7 +142,7 @@ button:focus,
 .page-header {
   display: flex;
   width: 100%;
-  padding: 20px;
+  padding: 10px;
 }
 
 .page-header__item {
